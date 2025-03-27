@@ -1,0 +1,26 @@
+.header {
+    padding-top: 25px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile {
+    width: 200px;
+    background-image: linear-gradient(90deg, purple 0%, lightgreen 50.52%, yellow 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform 0.3s;
+  }
+  
+  .profile:hover {
+    transform: scale(1.1);
+  }
+  
+  .profile img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  

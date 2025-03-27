@@ -1,0 +1,15 @@
+.section {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 1rem 5rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    padding: 1rem 0;
+}

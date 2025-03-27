@@ -1,0 +1,29 @@
+.card {
+    list-style: none;
+    text-align: center;
+    background-color: #1f1d2b;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card p {
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    background-color: #292838;
+}
+
+.roundedCard {
+    border-radius: 50%;
+}
+
+.roundedCard img {
+    border-radius: 50%;
+}
